@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    margin-top: 60px;
+}
+
+.table_b{
+    width: 400px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.table_b td{
+    padding: 10px;
+}

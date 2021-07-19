@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.table_b{
+    border: 1px solid green;
+    width: 600px;
+    border-radius: 10px;
+}
+.table_b th,td{
+    text-align: center;
+    padding: 10px;
+}
+.table_b th{
+    background: rgba(23, 191, 23, 0.823);
+    color: white;
+}
+.title{
+    margin-top: 60px;
+  }
+  .title h3 {
+    color: red;
+  }

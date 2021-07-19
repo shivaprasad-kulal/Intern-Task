@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.table_b th,td{
+    text-align: center;
+    padding: 10px;
+}
+.title{
+    margin-top: 60px;
+  }
+  
