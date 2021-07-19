@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.h-box{
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: rgba(75, 75, 70, 0.412);
+    box-shadow: 2px 2px 13px rgba(0,0,0,0.3);
+    position: relative;
+}
+.head-overlay{
+    font-family: calibri;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(187, 187, 187, 0.611);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.head-overlay h1,p{
+   
+}
+.head-overlay h1{
+    font-family: Georgia, serif;
+  font-size: 60px;
+  color:#800b00;
+}
+}
+.head-overlay p{
+    font-size: 1.2rem;
+    margin: 0px;
+}
+.h-box:hover .head-overlay{
+    display: flex;
+}
+.h-box img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
